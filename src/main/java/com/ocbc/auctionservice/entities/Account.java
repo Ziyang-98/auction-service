@@ -17,10 +17,11 @@ import java.util.UUID;
 @Table(name = "accounts")
 public class Account extends Auditable {
 
-    @Id
+//    @Id
     @Column(name = "id")
     private UUID id;
 
+    @Id
     @Column(name = "account_number")
     private String accountNumber;
 
